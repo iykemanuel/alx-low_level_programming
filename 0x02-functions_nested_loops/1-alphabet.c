@@ -1,10 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * print_alphabet - function to print abc
- * Return: Always 0
- */
+*print_alphabet - Prints the alphabet in lowercase
+*/
 void print_alphabet(void)
 {
 	char c;
