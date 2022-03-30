@@ -1,21 +1,20 @@
-#include "main.h"
-
+#include "holberton.h"
 /**
- * _memset - fills the first n bytes of the memory area pointed to
- * by s with the constant byte b
- *
- * @s: memory area
- * @b: constant byte
- * @n: the number of bytes to fill
- *
- * Return: a pointer to the memory area
+ * _memset - check the code for Holberton School students.
+ * @s: parameter for the array
+ * @b: parameter for the values in the array
+ * @n: parameter for the number of times to print the new values
+ * Return: Always 0.
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
+	unsigned int a = 0;
 
-	for (i = 0; i < n; i++)
-		*(s + i) = b;
+	while (a < n)
+	{
+		s[a] = b;
+		a++;
+	}
 
 	return (s);
 }
